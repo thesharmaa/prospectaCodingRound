@@ -1,4 +1,4 @@
-package com.masai.entity;
+package com.prospecta.entity;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 

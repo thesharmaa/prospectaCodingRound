@@ -1,6 +1,5 @@
-package com.masai.entity;
+package com.prospecta.entity;
 
-import java.util.List;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -8,8 +7,9 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class Entry {
+public class DatasDTO {
 
-	private Integer count;
-	private List<Datas> entries;
+	private String api;
+	private String description;
+
 }

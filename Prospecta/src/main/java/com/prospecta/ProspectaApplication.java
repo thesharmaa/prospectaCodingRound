@@ -1,4 +1,4 @@
-package com.masai;
+package com.prospecta;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

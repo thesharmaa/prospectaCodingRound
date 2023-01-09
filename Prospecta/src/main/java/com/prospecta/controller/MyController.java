@@ -1,4 +1,4 @@
-package com.masai.controller;
+package com.prospecta.controller;
 
 import java.util.List;
 
@@ -12,11 +12,10 @@ import org.springframework.web.bind.annotation.RequestBody;
 
 import org.springframework.web.bind.annotation.RestController;
 
-import com.masai.entity.Datas;
-import com.masai.entity.DatasDTO;
-import com.masai.exception.ClientException;
-
-import com.masai.service.myService;
+import com.prospecta.entity.Datas;
+import com.prospecta.entity.DatasDTO;
+import com.prospecta.exception.ClientException;
+import com.prospecta.service.myService;
 
 @RestController
 

@@ -1,10 +1,10 @@
-package com.masai.service;
+package com.prospecta.service;
 
 import java.util.List;
 
-import com.masai.entity.Datas;
-import com.masai.entity.DatasDTO;
-import com.masai.exception.ClientException;
+import com.prospecta.entity.Datas;
+import com.prospecta.entity.DatasDTO;
+import com.prospecta.exception.ClientException;
 
 public interface myService {
 

@@ -1,4 +1,4 @@
-package com.masai.service;
+package com.prospecta.service;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -6,11 +6,11 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
-import com.masai.entity.Datas;
-import com.masai.entity.DatasDTO;
-import com.masai.entity.Entry;
-import com.masai.exception.ClientException;
-import com.masai.repo.DatasRepo;
+import com.prospecta.entity.Datas;
+import com.prospecta.entity.DatasDTO;
+import com.prospecta.entity.Entry;
+import com.prospecta.exception.ClientException;
+import com.prospecta.repo.DatasRepo;
 
 @Service
 public class myServiceImpl implements myService {
